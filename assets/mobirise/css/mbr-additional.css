@@ -38,11 +38,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1310,61 +1310,16 @@ a {
   padding-right: 1.5rem;
   color: #6592e6;
 }
-.cid-tJa1DbYGpI {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/0706-1.png");
+.cid-tJaad9jNps {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
 }
-.cid-tJa1DbYGpI .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tJa1DbYGpI .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tJa1DbYGpI .media-container-row {
-  justify-content: space-between;
-  justify-content: center;
-}
-.cid-tJa1DbYGpI .text-content {
-  max-width: 50%;
-}
-@media (max-width: 768px) {
-  .cid-tJa1DbYGpI .text-content {
-    max-width: none;
-  }
-}
-.cid-tJa1DbYGpI .mbr-iconfont-social {
-  margin: 0.5rem;
-  font-size: 32px;
-  display: flex;
-  border-radius: 50%;
-  text-align: center;
-  color: #2299aa;
-  border: 2px solid #2299aa;
-  justify-content: center;
-  align-content: center;
-  transition: all 0.3s;
-}
-.cid-tJa1DbYGpI .mbr-iconfont-social:before {
-  padding: 0.6rem;
-}
-.cid-tJa1DbYGpI .mbr-iconfont-social:hover {
-  background-color: #2299aa;
-  color: #ffffff;
-}
-@media (max-width: 768px) {
-  .cid-tJa1DbYGpI .icons {
-    justify-content: center !important;
-  }
-  .cid-tJa1DbYGpI .text-content * {
-    text-align: center;
-  }
+.cid-tJaad9jNps .line {
+  background-color: #917a16;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
 .cid-tJa1pNJCYm {
   padding-top: 30px;
