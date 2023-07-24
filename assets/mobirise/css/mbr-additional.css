@@ -702,11 +702,12 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-tJ9L3c8V4D .navbar-dropdown {
-  position: relative !important;
+.cid-tJ9L3c8V4D {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-tJ9L3c8V4D .navbar-dropdown {
-  position: absolute !important;
+.cid-tJ9L3c8V4D nav.navbar {
+  position: fixed;
 }
 .cid-tJ9L3c8V4D .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1010,6 +1011,7 @@ a {
 }
 .cid-tJ9L3c8V4D .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tJ9L3c8V4D a.nav-link {
   display: flex;
