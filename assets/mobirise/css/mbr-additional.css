@@ -30,11 +30,11 @@ body {
 }
 .display-5 {
   font-family: 'Jost', sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
@@ -71,9 +71,9 @@ body {
     line-height: calc( 1.4 * (0.895rem + (0.7 - 0.895) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.72rem;
@@ -1235,26 +1235,56 @@ a {
 .cid-tJ9TwX1WdW .item-subtitle {
   text-align: left;
 }
-.cid-tLBXHHaKdZ {
+.cid-tP4Dl8QEJl {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #fafafa;
-}
-.cid-tLBXHHaKdZ .mbr-overlay {
   background-color: #ffffff;
-  opacity: 0.4;
 }
-.cid-tLBXHHaKdZ form .mbr-section-btn {
-  text-align: center;
+.cid-tP4Dl8QEJl img,
+.cid-tP4Dl8QEJl .item-img {
   width: 100%;
 }
-.cid-tLBXHHaKdZ form .mbr-section-btn .btn {
-  display: inline-flex;
+.cid-tP4Dl8QEJl .item:focus,
+.cid-tP4Dl8QEJl span:focus {
+  outline: none;
+}
+.cid-tP4Dl8QEJl .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-tP4Dl8QEJl .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-tP4Dl8QEJl .item-wrapper .item-content {
+    padding: 2rem;
+  }
 }
 @media (max-width: 991px) {
-  .cid-tLBXHHaKdZ form .mbr-section-btn .btn {
-    width: 100%;
+  .cid-tP4Dl8QEJl .item-wrapper .item-content {
+    padding: 1rem;
   }
+}
+.cid-tP4Dl8QEJl .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-tP4Dl8QEJl .mbr-section-title {
+  color: #232323;
+}
+.cid-tP4Dl8QEJl .mbr-text,
+.cid-tP4Dl8QEJl .mbr-section-btn {
+  text-align: left;
+}
+.cid-tP4Dl8QEJl .item-title {
+  text-align: left;
+}
+.cid-tP4Dl8QEJl .item-subtitle {
+  text-align: left;
 }
 .cid-tJ9RXP5Eyo {
   padding-top: 5rem;
